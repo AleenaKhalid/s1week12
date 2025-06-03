@@ -21,7 +21,7 @@ jobs:
       run: npx stylelint "**/*.css" 
     - name: Repo Information
       run: |
-         git branch
-         echo "Event Name: ${{github.event_name}}"
-         echo "Actor Name:${{github.actor}}"
+        git branch
+        echo "Event Name: ${{github.event_name}}"
+        echo "Actor Name: ${{github.actor}}"
 
